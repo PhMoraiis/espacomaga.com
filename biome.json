@@ -18,6 +18,11 @@
 			"recommended": true
 		}
 	},
+	"css": {
+		"parser": {
+			"tailwindDirectives": true
+		}
+	},
 	 "overrides": [
     {
       "includes": ["**/*.svelte", "**/*.astro", "**/*.vue"],

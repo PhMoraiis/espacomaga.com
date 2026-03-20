@@ -1,8 +1,20 @@
 ---
-import { Hero } from "../components/Hero";
+import { HeroSection } from "@/components/HeroSection";
+import { JourneySection } from "@/components/JourneySection";
+import { Navbar } from "@/components/Navbar";
+import { PlanningSection } from "@/components/PlanningSection";
+import { SetupDecorSection } from "@/components/SetupDecorSection";
+import { TablescapeSection } from "@/components/TablescapeSection";
+import { WhyChooseSection } from "@/components/WhyChooseSection";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-	<Hero />
+	<Navbar client:load />
+	<HeroSection />
+	<JourneySection />
+	<PlanningSection />
+	<WhyChooseSection />
+	<SetupDecorSection />
+	<TablescapeSection />
 </Layout>
